@@ -56,10 +56,10 @@ button {
 .hero-panel {
   display: flex;
   background-color: #1f2937;
-  gap: 48px;
+  gap: 50px;
   justify-content: center;
   align-items: center;
-  padding: 150px;
+  height: 500px;
 }
 
 .hero-text-panel {
@@ -85,32 +85,56 @@ button {
 
 /* INFO PANEL CONTENT GOES HERE */
 
+.info-panel {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
 .info-header {
   align-self: center;
-  margin-top: 24px;
-  padding: 24px;
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
 }
 
-.info-panel {
+.info-container {
   display: flex;
-  justify-content: space-around;
-  padding: 24px;
-  margin-bottom: 80px;
-}
+  justify-content: center;
 
-.info-card {
+  gap: 50px;
 }
 
 .info-text {
   text-align: center;
   max-width: 180px;
+
 }
 
 /* QUOTE PANE CONTENT GOES HERE */
 
+.quote-panel {
+  background-color: #e5e7eb;
+
+
+}
+
+.quote-card {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  max-width: 1000px;
+}
+
+.quote-attribution {
+  font-size: 28px;
+  font-weight: 700;
+}
 /* SIGN UP PANEL CONTENT GOES HERE */
 
 button.banner {
